@@ -15,6 +15,6 @@ Data dumps for the NFL analysis that can be used in conjunction with [this analy
 | `cpoe`          | float64 | Completion percentage over expected, or the ratio of completed passes to attempted passes, all divided by the expected percentage of completed passes                     |
 | `kick_accuracy` | bool    | A binary variable that indicates whether the kick attempt resulted in a field goal. 1 indicates that it was successful.                                                   |
 | `pass_accuracy` | bool    | A binary variable that indicates whether the pass attempt was successful. 1 indicates that it was successful. Derived from the `completion_probability`                   |
-| `altitude`      | int     | The altitude of the stadium, measured in feet. Data sourced from ARCGIS.                                                                                                  |
+| `altitude`      | int     | The altitude of the stadium, measured in feet. Data sourced from ARCGIS and CalTopo.                                                                                      |
 | `humidity`      | int     | The relative humidity, if recorded, from 0 to 100, where 0 corresponds to 0%, or zero humidity, and 100 corresponds to 100%, or full humidity.                            |
 | `temperature`   | int     | The temperature, if recorded, in degrees Fahrenheit.                                                                                                                      |
